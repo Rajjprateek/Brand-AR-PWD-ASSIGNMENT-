@@ -720,6 +720,8 @@ footer .col{
 	flex-direction: column;
 	align-items: flex-start;
 	margin-bottom: 20px;
+	color: #F4ECEC;
+
 }
 
 footer .logo{
@@ -752,7 +754,7 @@ footer .follow i{
 
 footer .follow i:hover,
 footer a:hover {
-	color:#F4ECEC;
+	color:#d31619;
 }
 	
 footer .copyright{

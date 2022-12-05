@@ -4,7 +4,7 @@
 <head>
 	<link href="favicon.ico" rel="icon">
 	<meta charset="utf-8">
-	<title>Login/Sign-up | AR!</title>
+	<title>Sign-Up | AR!</title>
 
 	<!-- link for using icons - https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet" -->
@@ -34,7 +34,7 @@
 					<li><a href="aboutAr.html">About</a></li>
 					<li><a href="shopsAr.html">Shop</a></li>
 					<li><a href="contactAr.html">Contact</a></li>
-					<li><a class="active" href="loginAr.html">Login/Sign-up</a></li>
+					<li><a class="active" href="loginAr.html">Click here to Login</a></li>
 					<li><a href="cartsmink.html"><span class="material-icons">shopping_bag</span></a></li>
 				</ul>
 			</div>
@@ -46,34 +46,53 @@
 		<form>
 
 
-			<table width="auto" height="auto" border="0" cellpadding="0" cellspacing="20" align="center">
+			<table width="auto" height="auto" border="0" cellpadding="0" cellspacing="25" align="center">
 				<tbody class="container">
 					<tr>
-						<td width="1500"><label><b>Username</b></label>
-							<input type="text" placeholder="Enter Username" required>
+						<td width="1500"><label><b>Enter your name</b></label>
+							<input type="text" placeholder="Enter name" required>
 						</td>
 					</tr>
 					<tr>
-						<td><label for="psw"><b>Password</b></label>
+						<td width="1500"><label><b>Enter your email</b></label>
+							<input type="text" placeholder="Enter email-id" required>
+						</td>
+					</tr>
+					<tr>
+						<td width="1500"><label><b>Select Your gender</b></label><br><br>
+							<input type="radio" name="gender" id="female" value="Female" required checked> Female 
+							<input type="radio" name="gender" id="male" value="Male" required> Male  
+							<input type="radio" name="gender" id="other" value="other" required> other
+						</td>
+					</tr>
+					<tr>
+						<td width="1500"><label><b>Select Your Date of Birth</b></label><br><br>
+							<input type="date" name="dob" id="dob" required>
+						</td>
+					</tr>
+					<tr>
+						<td width="1500"><label><b>Enter your Mobile Number</b></label><br><br>
+							<input type="text" placeholder="Enter mobile number" required>
+						</td>
+					</tr>	
+					<tr>
+						<td><label for="psw"><b>Enter a Password</b></label>
 							<input type="password" placeholder="Enter Password" name="psw" required>
 						</td>
 					</tr>
 					<tr>
-						<td><label>
-								<input type="checkbox" checked="checked" name="remember"> Remember me
-							</label></td>
+						<td>
+							<button type="submit" formaction="loginAr.html" >Submit</button>
+						</td>
 					</tr>
-					<tr>
-						<td><button type="submit">Login</button></td>
-					</tr>
-					<tr>
+					<!-- <tr>
 						<td>
 							<div class="container" style="background-color:#f1f1f1">
 								<button type="button" class="signupbtn">Click here to Sign-Up</button>
-								<span class="psw"><a href="signupAr.html">Forgot password?</a></span>
+								<span class="psw"><a href="#">Forgot password?</a></span>
 							</div>
 						</td>
-					</tr>
+					</tr> -->
 					<tr>
 						<td>&nbsp;</td>
 					</tr>

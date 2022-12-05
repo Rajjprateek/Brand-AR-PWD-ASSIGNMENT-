@@ -61,7 +61,7 @@ body{
 	align-items: center;
 	justify-content: space-between;
 	padding: 20px 80px;
-	background:#F3EAF0;
+	background: #1f1f1f;;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.06);
 	z-index: 999;
 	/*position: sticky;*/
@@ -86,13 +86,13 @@ body{
 	text-decoration: none;
 	font-size: 16px;
 	font-weight: 600;
-	color:#950E10;
+	color:#F3EAF0;
 	transition: 0.3s ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active{
-	color: #8D0C84;		
+	color: #F20408;		
 }
 
 /*Header start*/
@@ -133,7 +133,7 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
+  background-color: #A20608;
 }
 
 
@@ -155,7 +155,7 @@ span.psw {
 footer{
 	display: flex;
 	flex-wrap: wrap;
-	background:#F3EAF0;
+	background:#252525;
 	justify-content: space-between;
 }
 
@@ -173,17 +173,19 @@ footer .logo{
 footer h4{
 	font-size: 14px;
 	padding-bottom: 20px;
+	color: #F4ECEC;
 }
 
 footer p{
 	font-size: 13px;
 	padding-bottom: 0 0 8px 0 ;
+	color: #F4ECEC;
 }
 
 footer a{
 	font-size: 13px;
 	text-decoration: none;
-	color: #222;
+	color: #F4ECEC;
 	margin-bottom: 10px;
 	padding-bottom: 0 0 8px 0 ;
 }
@@ -196,10 +198,15 @@ footer .follow i{
 
 footer .follow i:hover,
 footer a:hover {
-	color:#950E10;
+	color:#F4ECEC;
 }
 	
 footer .copyright{
 	width:100%;
 	text-align: center;
+	color: #F3EBEB
+}
+
+.material-icons{
+	color: #F9F2F2;
 }

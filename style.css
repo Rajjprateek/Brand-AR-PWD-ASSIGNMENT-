@@ -117,7 +117,7 @@ body{
 }
 
 #coverpg h1 {
-	color:#950E10;
+	color:#F3EAF0;
 	
 }
 
@@ -131,8 +131,8 @@ body{
 	font-size:13px;
 	font-weight:600;
 	padding: 11px 18px;
-	color:#950E10;
-	background-color:#F3EAF0;
+	color:#F3EAF0;
+	background-color:#950E10;
 	cursor: pointer;
 	border: 1px solid #FFFFFF;
 	outline: none;
@@ -456,6 +456,7 @@ button.white{
 	list-style: none;
 	display: flex;
 	padding: 10px 0;
+	color: #F4ECEC;
 }
 
 #contact-details .details li span{
@@ -541,7 +542,7 @@ button.white{
 	display: block;
 	font-size: 16px;
 	font-weight: 600;
-	color: #000000;
+	color: #ffffff;
 	
 }
 
